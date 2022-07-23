@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/index.js"
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
   },
   "author": "montoyaguzman7",
   "license": "ISC",
@@ -16,5 +17,8 @@
   "devDependencies": {
     "colors": "^1.4.0",
     "nodemon": "^2.0.19"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }

@@ -27,6 +27,10 @@ const corsOptions = {
 }
 app.use(cors(corsOptions));
 
+app.get('/', (req, res) => {
+  res.send('Api shoes by montoya');
+});
+
 // 5 Levantar el servidor
 app.listen(port, () => {
     console.log('Servidor express listening...'.rainbow);
