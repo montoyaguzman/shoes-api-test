@@ -4,7 +4,7 @@
  */
 const express = require('express');
 const shoesRouter = express.Router();
-const ShoesServices = require('../../services/shoes/');
+const ShoesServices = require('../../services/shoes');
 
 const shoeService = new ShoesServices();
 
