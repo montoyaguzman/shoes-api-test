@@ -1,6 +1,5 @@
 // 1 Importaciones de componentes necesarios
 const express = require('express');
-const colors = require('colors');
 
 // CORS
 const cors = require('cors');
@@ -33,7 +32,7 @@ app.get('/', (req, res) => {
 
 // 5 Levantar el servidor
 app.listen(port, () => {
-    console.log('Servidor express listening...'.rainbow);
+    console.log('Servidor express listening...');
 });
 // 6 Agregar el route a la app
 routerApi(app);
